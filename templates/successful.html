@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% load static %}
+<h1>SUCCESSFUL</h1>
+<image src='{% static "images/img1.jpg" %}' width='200px' />
+
+<a href="{{ url }}" download>Download</a>
+
+<div>
+	<div class="mini-contaoner"></div>
+	<div class="mini-contaoner"></div>
+	<div class="mini-contaoner"></div>
+	<div class="mini-contaoner"></div>
+	<div class="mini-contaoner"></div>
+	<div class="mini-contaoner"></div>
+</div>
+{% endblock %}
